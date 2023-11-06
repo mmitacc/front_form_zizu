@@ -1,0 +1,77 @@
+.containerMain {
+  width: auto;
+  /* width: 90%; */
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: rgba(255, 217, 0, 0.192);
+  color: rgb(0, 64, 128);
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerForm {
+  /* margin: auto; */
+  /* min-width: 400px; */
+  width: auto;
+}
+
+.containerInput {
+  /* width: 90%; */
+  min-width: 400px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.labelBlue {
+  /* width: 90%; */
+  min-width: 400px;
+  border: rgb(1, 27, 53) 5px;
+  border-radius: 2px;
+  background-color: rgb(0, 64, 128);
+  color: white;
+  font-size: 14px;
+}
+
+.labelAlert {
+  color: red;
+  font-style: italic;
+  font-size: 0.7em;
+  border-radius: 0 0 5px 5px;
+  border: red 0.5px solid;
+  margin-top: 1px;
+  margin-left: 5px;
+  padding-left: 5px;
+  width: auto;
+  background-color: white;
+}
+
+.containerButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.blueButton {
+  background-color: rgb(0, 64, 128);
+  border: white 1px;
+  border-radius: 7px;
+  color: white;
+  padding: 2.5px;
+  margin: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  height: 35px;
+  width: 200px;
+  cursor: pointer;
+}
